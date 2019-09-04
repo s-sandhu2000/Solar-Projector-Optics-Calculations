@@ -25,7 +25,6 @@ int main(int argc,char*argv[])
 		cout<<"Magnification option 1: "<<solution1<<endl;
 		cout<<endl;
 		double o=(((total_length)-(focal_length1))/(solution1+1))+focal_length1;
-		double i=(solution1*o);
 		cout<<"The second lens needs to be placed "<<o<<" meters from the first lens."<<endl;
 		cout<<endl;
 		
@@ -37,7 +36,6 @@ int main(int argc,char*argv[])
 		cout<<"Magnification option 2: "<<solution2<<endl;
 		cout<<endl;
 		double o=(((total_length)-(focal_length1))/(solution2+1))+focal_length1;
-		double i=(solution2*o);
 		cout<<"The second lens needs to be placed "<<o<<" meters from the first lens."<<endl;
 		cout<<endl;
 	}

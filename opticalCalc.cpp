@@ -6,7 +6,7 @@ int main(int argc,char*argv[])
 {
 	if(argc!=4)
 	{
-		cerr<<"HEY! NOT THE RIGHT NUMBER OF INPUTS!"<<endl;
+		cerr<<"HEY! NOT THE RIGHT NUMBER OF INPUTS!!!"<<endl;
 		exit(1);
 	}
 	double focal_length1=atof(argv[1]);
